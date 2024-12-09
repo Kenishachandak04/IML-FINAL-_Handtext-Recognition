@@ -2,8 +2,8 @@ import os
 import xml.etree.ElementTree as ET 
 import pandas as pd 
 
-cvl_data_path = '../handwritten-text-recognition/cvl-database-1-1/'
-root_dir = '../handwritten-text-recognition/'
+cvl_data_path = '/Users/kenishachandak/IML-FINAL-_Handtext-Recognition/cvl-database-1-1/'
+root_dir = '/Users/kenishachandak/IML-FINAL-_Handtext-Recognition/cvl-database-1-1/'
 
 
 def parseXML(file_path):
