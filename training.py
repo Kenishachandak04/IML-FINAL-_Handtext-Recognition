@@ -25,10 +25,10 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 import warnings
 warnings.simplefilter('ignore', UserWarning)
 
-
-cvl_data_path = '../handwritten-text-recognition/cvl-database-1-1/'
+cvl_data_path = '/Users/kenishachandak/IML-FINAL-_Handtext-Recognition/cvl-database-1-1/'
+root_dir = '/Users/kenishachandak/IML-FINAL-_Handtext-Recognition/cvl-database-1-1/'
 cvl_cropped_images =  cvl_data_path+'cvl-database-cropped-1-1/'
-root_dir = '../handwritten-text-recognition/'
+
 
 # loading ghe csv files containing the (image) file names and the corresponding text label (string)
 # trainset_line = pd.read_csv(cvl_data_path+'lines_trainset.csv')
